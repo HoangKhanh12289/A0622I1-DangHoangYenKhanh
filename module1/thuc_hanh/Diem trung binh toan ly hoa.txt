@@ -1,0 +1,5 @@
+BEGIN
+   INPUT a,b,c  //a,b,c là điểm toán lý hoá
+   r = (a+b+c)/3
+   Display r
+END 
