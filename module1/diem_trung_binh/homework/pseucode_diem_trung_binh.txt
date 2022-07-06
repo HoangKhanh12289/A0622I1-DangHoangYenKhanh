@@ -1,0 +1,5 @@
+START
+    input diem toan, ly, hoa
+    total=T+L+H
+    diem trung binh=total/3
+END
