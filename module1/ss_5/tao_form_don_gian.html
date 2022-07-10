@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+     h2{
+         background-color: blue;
+         color: yellow;
+         width: 420px;
+     }
+
+</style>
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<body>
+<h2 class="h2"> Integrityにプロジェクトを登録する</h2>
+<form action="" method="get">
+    <label>Proj番号</label>
+    <input type="text" name="proj" id="proj"><br>
+    <label>Proj名</label>
+    <input type="text" name="projn" id="projn"><br>
+    <label>イベント</label>
+    <input type="text" name="event"><br>
+    <label>リーダの名</label>
+    <input type="password" name="lead"><br>
+    <label>開始</label>
+    <input type="date" name="stday"><br>
+    <label>メール</label><br>
+    <input type = "text" name="email" size="35"/><br>
+    <label>客様</label><br>
+    <select name="客様">
+        <option value="HD">Honda</option>
+        <option value="szk">Suzuki</option>
+        <option value="mi">Mitsubishi</option>
+        <option value="Ma">Mazda</option><br>
+    </select><br>
+    <br>
+    <input type="button"  onclick="change1()" value="登録する"><br>
+</body>
+</html>
