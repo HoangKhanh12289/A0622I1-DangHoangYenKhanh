@@ -20,19 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76117ce1-b331-4562-8f83-67c9d25f0d16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ss_4/cv_ca_nhan/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss_4/cv_ca_nhan/.idea/cv_ca_nhan.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss_4/cv_ca_nhan/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss_4/cv_ca_nhan/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss_4/cv_ca_nhan/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss_4/cv_ca_nhan/cv_ca_nhan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_04.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_05.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_07.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cau_truc_dieu_kien_01_07.html" beforeDir="false" afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_07.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658326674329</updated>
       <workItem from="1658326675672" duration="138000" />
-      <workItem from="1658488094700" duration="6710000" />
+      <workItem from="1658488094700" duration="7260000" />
     </task>
     <servers />
   </component>
