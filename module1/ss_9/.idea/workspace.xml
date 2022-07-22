@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76117ce1-b331-4562-8f83-67c9d25f0d16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ss_4/cv_ca_nhan/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_4/cv_ca_nhan/.idea/cv_ca_nhan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_4/cv_ca_nhan/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_4/cv_ca_nhan/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_4/cv_ca_nhan/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_4/cv_ca_nhan/cv_ca_nhan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_07.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XHTML File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2CDAF8z2nogBDnZqFkTtsP6dAyA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76117ce1-b331-4562-8f83-67c9d25f0d16" name="Default Changelist" comment="" />
+      <created>1658326674329</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658326674329</updated>
+      <workItem from="1658326675672" duration="138000" />
+      <workItem from="1658488094700" duration="6710000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/cau_truc_dieu_kien_01_06.html</url>
+          <line>20</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    var calltime = parseInt(prompt("Hãy nhập tổng thời lượng cuộc gọi tháng vừa rồi: "));
+    var call0 = calltime - 200
+    var call1 = calltime - 700
+    const cost1 = 150; //giới hạn gọi miễn phí tối đa 200 phút, vượt quá tính giá 150đ / phút
+    const cost2 = 350; // sau khi vượt quá 500 phút thì tính tiền 350đ / phút
+    if (call0<=0) {
+        alert("Bạn được miễn phí cước gọi tháng này");
+    } else if (call0<=500) {
+        alert("phí cuộc gọi tháng này là" + call0*150);
+    } else {
+        alert("phí cuộc gọi tháng này là:" + (500*150 + call1*350));
+    }
+
+</script>
+</body>
+</html>
