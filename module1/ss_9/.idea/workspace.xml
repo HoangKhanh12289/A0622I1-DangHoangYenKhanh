@@ -20,7 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76117ce1-b331-4562-8f83-67c9d25f0d16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_02_01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_02_02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_02_03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_02_04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_02_06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_02_07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_02_08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_02_09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_02_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_02_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_02_12.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cau_truc_dieu_kien_01_04.html" beforeDir="false" afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cau_truc_dieu_kien_01_06.html" beforeDir="false" afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_06.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cau_truc_dieu_kien_01_07.html" beforeDir="false" afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_01_07.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1658326674329</updated>
       <workItem from="1658326675672" duration="138000" />
-      <workItem from="1658488094700" duration="7260000" />
+      <workItem from="1658488094700" duration="11300000" />
+      <workItem from="1658689239393" duration="10652000" />
     </task>
     <servers />
   </component>
@@ -88,7 +102,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/cau_truc_dieu_kien_01_06.html</url>
           <line>20</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

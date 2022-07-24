@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt("Input giá trị hệ số bậc 2 là a: "));
+    var b = parseInt(prompt("Input giá trị hệ số bậc 1 là b: "));
+    var c = parseInt(prompt("Input giá trị hệ số tự do là c: "));
+    var del1,nghiem1,nghiem2;
+        del1 = Math.sqrt((b*b)-(4*a*c));
+        nghiem1 = (((-b) + (del1))/(2*a));
+        nghiem2 = (((-b) - (del1))/(2*a));
+    if (a==0) {
+        alert("Dữ liệu đầu vào không hợp lệ");
+    }else if (del1>=0) {
+            alert("Nghiệm thứ nhất của phương trình là:  " + nghiem1.toFixed(2));
+            alert("Nghiệm thứ nhất của phương trình là:  " + nghiem2.toFixed(2));
+        } else {
+        alert("phương trình vô nghiệm");
+    }
+
+</script>
+</body>
+</html>

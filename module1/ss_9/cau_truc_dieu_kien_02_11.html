@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt("Nhập doanh thu của bạn: "));// đớn vị tính là triệu vnđ
+    if (a<12) {
+        alert("Thu nhập của bạn không bị đánh thuế thu nhập");
+    }else if (a<=20) {
+        alert("Thuế thu nhập cá nhân bạn phải nộp là :" + (a*0.05).toFixed(3) + " triệu vnđ");
+       }else if (a<=30) {
+        alert("Thuế thu nhập cá nhân bạn phải nộp là :" + (a*0.12).toFixed(3) + " triệu vnđ");
+         }
+         else  {
+        alert("Thuế thu nhập cá nhân bạn phải nộp là :" + (a*0.2).toFixed(3) + " triệu vnđ");
+               }
+</script>
+</body>
+</html>

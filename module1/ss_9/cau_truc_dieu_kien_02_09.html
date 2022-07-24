@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt("Input giá trị độ dài cạnh a: "));
+    var b = parseInt(prompt("Input giá trị độ dài cạnh b: "));
+    var c = parseInt(prompt("Input giá trị độ dài cạnh c: "));
+    var del1,sum1,sum2,sum3;
+        del1 = a*b*c;
+        sum1 = a + b;
+        sum2 = b + c;
+        sum3 = a + c;
+    if (del1<=0) {
+        alert("Dữ liệu đầu vào không hợp lệ");
+       }else if ((sum1>c)&&(sum2>a)&&(sum3>b)) {
+           alert("Độ dài các cạnh thoả mãn điều kiện của 1 tam giác");
+              } else {
+                     alert("Độ dài các cạnh không thoả mãn");
+                     }
+</script>
+</body>
+</html>

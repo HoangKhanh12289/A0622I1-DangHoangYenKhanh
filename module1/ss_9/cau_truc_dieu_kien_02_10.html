@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var kwh = parseInt(prompt("Hãy nhập số điện tiêu thụ tháng vừa rồi: "));
+    var kwh1 = kwh - 50;
+    let cost1 = 1000; //từ 1kWh đến 50kWh giá 5000đ/1kWh
+    let cost2 = 2000; // sau khi vượt quá 50kWh thì phần vượt quá tính giá 8000đ/1kWh
+    if (kwh<=0) {
+        alert("Dữ liệu nhập vào bị sai");
+    } else if (kwh1<=0) {
+        alert("Hoá đơn tiền điện tháng này là: " + (kwh*cost1).toFixed(3) + " vnd");
+       } else {
+        alert("Hoá đơn tiền điện tháng này là: " + (50*cost1 + kwh1*cost2).toFixed(3) + " vnd");
+              }
+</script>
+</body>
+</html>

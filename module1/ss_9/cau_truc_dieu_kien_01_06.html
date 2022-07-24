@@ -7,16 +7,16 @@
 <body>
 <script>
 
-    var dsbh = parseInt(prompt("Hãy nhập doanh số bán hàng năm vừa qua: "));
+    var dsbh = parseInt(prompt("Hãy nhập doanh số bán hàng năm vừa qua: "));// đơn vị là usd
     var ck1 = 0.2*dsbh;
     var ck2 = 0.1*dsbh;
     var ck3 = 0.05*dsbh;
     if (dsbh>=1000000) {
-        alert("Chiết khấu hoa hồng của bạn là " + ck1);
-    } else if (dsbh>=7000) {
-        alert("Chiết khấu hoa hồng của bạn là " + ck2);
-    } else if(dsbh>=4000){
-        alert("Chiết khấu hoa hồng của bạn là " + ck3);
+        alert("Chiết khấu hoa hồng của bạn là " + ck1.toFixed(3) + " usd");
+    } else if (dsbh>=700000) {
+        alert("Chiết khấu hoa hồng của bạn là " + ck2.toFixed(3) + " usd");
+    } else if(dsbh>=400000){
+        alert("Chiết khấu hoa hồng của bạn là " + ck3.toFixed(3) + " usd");
     }else
         alert("Bạn không đạt chỉ tiêu");
 </script>
