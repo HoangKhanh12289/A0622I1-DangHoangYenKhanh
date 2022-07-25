@@ -6,19 +6,18 @@
 </head>
 <body>
 <script>
-    var debit = parseInt(prompt("Nhập số tiền vay ban đầu: "));// đơn vị là triệu đồng
-    var month = parseInt(prompt("Nhập số tháng đáo hạn khoản vay: "));
-    var a = parseInt(prompt("Nhập só tháng tính lãi một lần: "));
-    null rate = parseInt(prompt("Nhập lãi suất cho vay hàng năm: "));
-    null rate1 = 1 + (rate/(12/a)) ;// hệ số áp dụng trong 1 lần tính lãi
-    var n = month/a; // số lần tính lãi gộp
-    var interest = debit*(Math.pow(rate1, n)) - debit;
+    let debit = parseFloat(prompt("Nhập số tiền vay ban đầu: "));// đơn vị là triệu đồng
+    let month = parseInt(prompt("Nhập số tháng đáo hạn khoản vay: "));
+    let a = parseInt(prompt("Nhập só tháng tính lãi một lần: "));
+    let rate = parseFloat(prompt("Nhập lãi suất cho vay hàng năm: "));
+    let rate1 = 1 + (rate*a/12) ;// hệ số áp dụng trong 1 lần tính lãi
+    let n = month/a; // số lần tính lãi gộp
+    let interest = debit*(Math.pow(rate1, n)) - debit;
+
     if (debit>0)
     {
-        alert("Rate1 la:   " + rate1.toFixed(3))
-        alert("Tổng tiền lãi bạn phải trả tại thời điểm đáo hạn là: " + rate1.toFixed(6) + " triệu vnđ");
+        alert("Tổng tiền lãi bạn phải trả tại thời điểm đáo hạn là: " + interest.toFixed(6) + " triệu vnđ");
     }
-
 </script>
 </body>
 </html>
