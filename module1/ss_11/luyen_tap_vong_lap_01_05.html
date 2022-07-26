@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let loop = 0;
+    let i1=0, i2=1, sumi, sum20=0;
+
+    while(loop<19){
+        sumi = i1+i2;
+        i1 = i2;
+        i2 = sumi;
+        sum20 += i1;
+        loop++;
+    }
+    alert("Tổng của 20 số fibinacci đầu tiên là : " + sum20);
+
+
+</script>
+</body>
+</html>

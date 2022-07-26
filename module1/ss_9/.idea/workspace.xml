@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="76117ce1-b331-4562-8f83-67c9d25f0d16" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cau_truc_dieu_kien_02_12.html" beforeDir="false" afterPath="$PROJECT_DIR$/cau_truc_dieu_kien_02_12.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ss_11" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,7 +64,7 @@
       <workItem from="1658326675672" duration="138000" />
       <workItem from="1658488094700" duration="11300000" />
       <workItem from="1658689239393" duration="10652000" />
-      <workItem from="1658752092204" duration="421000" />
+      <workItem from="1658752092204" duration="1064000" />
     </task>
     <servers />
   </component>
@@ -83,6 +82,12 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1658754380103">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1658754380102" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

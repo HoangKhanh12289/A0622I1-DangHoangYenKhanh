@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let loop = 1;
+    let i1=0, i2=1, sumi;
+
+    document.writeln(i1 + '<br>') ;
+    while(loop<20){
+        sumi = i1+i2;
+        i1 = i2;
+        i2 = sumi;
+        loop++;
+        document.writeln(i1 + '<br>') ;
+    }
+</script>
+</body>
+</html>

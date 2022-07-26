@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let i1=0, i2=1, sumi;
+
+    while(i2%5!=0)
+   {
+        sumi = i1 + i2;
+        i1 = i2;
+        i2 = sumi;
+    }
+        alert("Số fibonacci chia hết cho 5 đầu tiên là :" + i2);
+</script>
+</body>
+</html>
