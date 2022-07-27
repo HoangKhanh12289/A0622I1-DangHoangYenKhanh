@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button name="button" value="OK" type="button" onclick="doan_so()">PlayGame</button>
+<script>
+    function doan_so() {
+        let a = parseInt(prompt("Mời bạn nhập giá trị bắt đầu của khoảng muốn đoán"));
+        let b = parseInt(prompt("Mời bạn nhập giá trị kết thúc của khoảng muốn đoán"));
+        let w = b - a + 1; // kích thước của khoảng, dùng để láy random
+        let c = parseInt(prompt("Mời bạn đoán giá trị ngẫu nhiên mà chúng tôi đã chọn"));
+        let rval;
+        rval = Math.floor(Math.random() * w) + a;
+        if (c == rval) {
+            alert("Xin chúc mừng bạn đã đoán trúng");
+        } else {
+            if (rval > c) {
+                alert("Rất tiếc, số bạn chọn nhỏ hơn đáp án");
+            } else {
+                alert("Rất tiếc, số bạn chọn lớn hơn đáp án");
+            }
+        }
+    }
+</script>
+
+</body>
+</html>
