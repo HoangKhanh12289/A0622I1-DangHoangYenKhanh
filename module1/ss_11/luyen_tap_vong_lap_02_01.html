@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let loop = 0;
+    let i1=0, i2=1, sumi;
+    let n = parseInt(prompt("Bạn muốn hiển thị bao nhiêu số Fobonacci ?"));
+
+    document.write(i1 + '<br>');// Số đầu tiên của dãy Fibonacci
+    while(loop<n-1){
+        sumi = i1+i2;
+        i1 = i2;
+        i2 = sumi;
+        loop++;
+        document.write(i1 + '<br>');
+    }
+
+</script>
+</body>
+</html>
