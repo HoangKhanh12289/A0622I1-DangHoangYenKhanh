@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh_lai_ngan_hang</title>
+</head>
+<body>
+<script>
+    let money = parseInt(prompt("Nhập vào số tiền vay ban đầu : "));
+    let month = parseInt(prompt("Nhập vào số tháng đáo hạn khoản vay : "));
+    let inrate = parseFloat(prompt("Nhập vào lãi suất hàng tháng : "));
+    let incre, sum;
+    for(let i = 1; i <= month; i++)
+    {
+        sum = money*Math.pow(1+inrate, month);
+      incre = sum - money;
+    }
+    document.write("Lãi suất vay vốn bạn phải trả sau "+month + " tháng là :" + Math.round(incre) + "  vnđ");
+</script>
+</body>
+</html>

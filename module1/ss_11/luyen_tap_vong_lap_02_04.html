@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In ra hinh chu nhat</title>
+</head>
+<body>
+<script>
+    let witdh = 21;
+    let hight= 8;
+            for (let i = 1; i <= hight; i++) {
+                for (let j = 1; j <= witdh; j++) {
+                    if (1 < i && i < hight) {
+                        if (1 < j && j < witdh) {
+                            document.write("&nbsp&nbsp");
+                        } else {
+                            document.write("*");
+                        }
+                    } else {
+                        document.write("*");
+                    }
+                }
+                document.write("<br>");
+            }
+</script>
+</body>
+</html>
