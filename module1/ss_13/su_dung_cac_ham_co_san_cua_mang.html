@@ -4,20 +4,68 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    button{
+        margin-left: 40%;
+        margin-top: 2%;
+        width: 150px;
+        height: 50px;
+        background-color: grey;
+        color: white;
+    }
+    body{
+        background-color: black;
+    }
+</style>
 <body>
+<button onclick="bai1()">Bài 1</button><br>
+<button onclick="bai2()">Bài 2</button><br>
+<button onclick="bai3()">Bài 3</button><br>
 <script>
     function bai1(){
         let  myColor = ["Red", "Green", "White", "Black"];
-        document.write(myColor.join(', '));
+        document.write(myColor.join(','));
     }
 
-    function bai2()
+    function bai2() {
+        const num = window.prompt("Nhập vào chuỗi số bất kỳ ");
+        let str = num.toString();
+        let dayso = [str[0]];//chèn phần tử đầu tiên của mảng str vào mảng dayso
+
+        for (let i = 1; i <= str.length; i++) {
+            if ((str[i - 1] % 2 == 0) && (str[i] % 2 == 0)) {
+                dayso.push("-", str[i]);
+            } else {
+                dayso.push(str[i]);
+            }
+        }
+        document.write(dayso.join(""));
+    }
+
+    function bai3()
     {
-        let num = window.prompt("Nhập vào chuỗi số bất kỳ ");
-        let str = num.toString(10);
-        alert("Chuoi so nhap vao la : " +str);
-    }
+        let str = prompt("Nhập vào đoạn ký tự bất kỳ :")
+        let UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        let LOWER = 'abcdefghijklmnopqrstuvwxyz';
+        let myarr = [];
 
+        for(let i= 0; i<str.length; i++)
+        {
+                if(UPPER.indexOf(str[i]) !== -1)// tìm thấy phần tử đó trong mảng UPPER
+                {
+                    myarr.push(str[i].toLowerCase());
+                }
+                else if(LOWER.indexOf(str[i]) !== -1)//tìm thấy phần tử đó trong mảng LOWER
+                {
+                    myarr.push(str[i].toUpperCase());
+                }
+                else
+                {
+                    myarr.push(str[i]);
+                }
+        }
+                document.write(myarr.join(""));
+    }
 </script>
 </body>
 </html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tra cứu tiếng Anh trực tuyến</title>
+</head>
+<body>
+<h2>Từ điển Anh - Việt</h2>
+<label>Tiếng Anh: </label>
+<input type="text" id="eng" placeholder="Input here"> <br><br>
+<label>Tiếng Việt: </label>
+<input type="text" id="vie" value="">
+<button id="add" onclick="add()">Thêm vào từ điển</button>
+<button id="translate" onclick="trans()">Dịch</button><br>
+<p id="result">Ý nghĩa: </p>
+<script>
+    let x = 0;
+    let eng = [hello, one, two, three, donkey, wellcome];
+    let vie = [xin chào, một, hai, ba, con lừa, chào mừng];
+    function add() {
+        <input type="text" id="submit content" placeholder="Please input mean of word">
+        eng[x] = document.getElementById("eng").value;
+        vie[x] = document.getElementById("vie").value;
+        x++;
+        document.getElementByd("eng").value = "";
+        document.getElementById("vie").value = "";
+        console.log(eng, vie)
+    }
+
+    function trans() {
+        let a = document.getElementById("eng").value;
+        for (let i = 0; i < eng.length; i++){
+            if (a === eng[i]){
+                a += ": " + vie[i];
+            }
+        }
+        document.getElementById("result").innerText = a;
+    }
+</script>
+</body>
+</html>
