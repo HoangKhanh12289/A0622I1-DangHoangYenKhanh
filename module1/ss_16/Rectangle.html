@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Rectangle</title>
+</head>
+<form>
+    <label>Width:</label>
+    <input type="text" id="width"><br>
+    <label>Height:</label>
+    <input type="text" id="height"><br>
+    <label>Chuvi:</label>
+    <input type="text" id="chuvihcn"><br>
+    <label>Dientich:</label>
+    <input type="text" id="dientichhcn"><br><br>
+    <input type="button" onclick="paint();" value="Create Rectangle">
+</form>
+<body>
+<canvas id="Rectg" width="5000" height="3000"></canvas>
+<script>
+
+    class Rect {
+        constructor(w, h) {
+            this.width = w;
+            this.height = h;
+        }
+
+        chuvi() {
+            return (this.width+this.height)*2 ;
+        }
+
+        dientich() {
+            return (this.width * this.height);
+        }
+    }
+
+    function paint() {
+        let w = +document.getElementById("width").value;
+        let h = +document.getElementById("height").value;
+        let createrect = new Rect(w, h);
+        let canvas = document.getElementById("Rectg");
+        if (canvas.getContext) {
+            let ctx = canvas.getContext('2d');// hiển thị dạng 2d
+            ctx.fillStyle = '#fa4b2a';    // full màu đỏ
+            ctx.fillRect(300, 10, w, h); // kích thước và toạ độ bắt đầu
+        }
+        document.getElementById("chuvihcn").value = + createrect.chuvi();
+        document.getElementById("dientichhcn").value = + createrect.dientich();
+    }
+</script>
+</body>
+</html>
